@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("BitDepthChecker")]
-[assembly: AssemblyDescription("A Simple Checker to check music's bit depth.")]
+[assembly: AssemblyTitle("BitDepthChecker.CLI")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BitDepthChecker")]
+[assembly: AssemblyProduct("BitDepthChecker.CLI")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,9 +20,9 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("e2cbe56b-6e70-497c-922d-90d0f99cad9a")]
+[assembly: Guid("7f6f86e2-2f01-457d-b868-3093ae179271")]
 
-// 程序集的版本信息由下列四个值组成:
+// 程序集的版本信息由下列四个值组成: 
 //
 //      主版本
 //      次版本
@@ -29,7 +30,7 @@ using System.Runtime.InteropServices;
 //      修订号
 //
 // 可以指定所有值，也可以使用以下所示的 "*" 预置版本号和修订号
-//通过使用 "*"，如下所示:
+// 方法是按如下所示使用“*”: :
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
